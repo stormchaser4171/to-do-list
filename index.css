@@ -1,0 +1,21 @@
+h1 {
+    color:blue; 
+     background-color:black;
+     text-align:center;
+}
+ul{
+    list-style-type:none;
+}
+
+.red{
+    color:red;
+}
+body{
+    background-image:url("http://cdn.mysitemyway.com/etc-mysitemyway/backgrounds/legacy-previews/backgrounds/nightlights/nightlights-000849-ultramarine-blue.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+li{
+    font-size:xx-large;
+    color:orange;
+}
