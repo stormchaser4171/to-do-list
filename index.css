@@ -2,13 +2,14 @@ h1 {
     color:blue; 
      background-color:black;
      text-align:center;
+     margin: 50px 0px 50px 0px;
+     padding: 50px 50px 50px 50px;
+     border-style:groove;
+     border-width:25px;
+     border-color: #0000cc;
 }
 ul{
     list-style-type:none;
-}
-
-.red{
-    color:red;
 }
 body{
     background-image:url("http://cdn.mysitemyway.com/etc-mysitemyway/backgrounds/legacy-previews/backgrounds/nightlights/nightlights-000849-ultramarine-blue.jpg");
@@ -18,4 +19,10 @@ background-size: cover;
 li{
     font-size:xx-large;
     color:orange;
+}
+.red{
+    color:red;
+}
+.purple{
+    color:purple;
 }
