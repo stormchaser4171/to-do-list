@@ -1,13 +1,14 @@
 li{
     color:#0000cc;
     font-size: xx-large;
-    background-color:grey;
+    background-color:#000000;
     text-align: justify;
     margin: 20px 1000px 0px 30px;
     border-style:double;
     border-width: 15px;
     border-color: #0000cc;
     font-family: Helvetica;
+    box-shadow: 10px 10px 15px black;
 }
 body{
     background-image:url("https://ak6.picdn.net/shutterstock/videos/2361821/thumb/1.jpg?i10c=img.resize(height:160");
@@ -22,6 +23,7 @@ background-color:black;
 color:blue;
 border-style:inset;
 border-color: grey;
+ box-shadow:5px 5px 5px black;
 }
 p{
     color:black;

@@ -26,3 +26,6 @@ li{
 .purple{
     color:purple;
 }
+input{
+    box-shadow:10px 5px 10px black;
+}
