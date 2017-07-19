@@ -1,16 +1,18 @@
 <html>
     <head>
        <link rel="stylesheet" href="index.css">
-           <script src=""></script>
+           <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
            <script type="text/javascript"src="index.js"></script>
         <title> to-do </title>
     </head>
     <body>
-      <div> <h1>TO DO LIST</h1> </div>
-    <input class="red" type="number" placeholder="Due Date" >
-    <input class="purple" type="text" placeholder="desc.">
+       <h1>TO DO LIST</h1> 
+    <div id="new-todo-block">
+        <input id="new-pomodoro-estimate" class="text-input" type="number" placeholder="Put Number" >
+    <input id="new-todo-description" class="text-input" type="text" placeholder="desc.">
     <br>
-    <input class="red" type="submit" value="Acknowledge">
+    <input id="add-new-todo-button" class="button" type="submit" value="Acknowledge">
+    </div>
     <ul style="list-style:none">
         <a href="show.html"><li><input type="checkbox">Lunch</li></a>
         <a href="#"><li class="red"><input type="checkbox">Back to Work</li></a>

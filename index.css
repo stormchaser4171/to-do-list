@@ -20,12 +20,13 @@ li{
     font-size:xx-large;
     color:orange;
 }
-.red{
+.text-input{
     color:red;
 }
-.purple{
+.button{
     color:purple;
 }
 input{
     box-shadow:10px 5px 10px black;
+    display:inline;
 }
